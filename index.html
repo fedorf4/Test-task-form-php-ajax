@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="content">
+        <div id="successSignUp" class="successSignUp _hide">
+            <h1>Успешная регистрация</h1>
+        </div>
+        <div class="form">
+            <form action="#" id="form" class="form__body">
+                <h1 class="form__title">Форма регистрации</h1>
+                <h2 id="errorResponse" class="errorResponse _hide">Ошибка валидации</h2>
+                <div class="form__item">
+                    <label for="formName" class="form__label">Имя*:</label>
+                    <input id="formName" name="username" type="text" class="form__input _req _name">
+                </div>`
+                <div class="form__item">
+                    <label for="formSurname" class="form__label">Фамилия*:</label>
+                    <input id="formSurname" name="usersurname" type="text" class="form__input _req _name">
+                </div>
+
+                <div class="form__item">
+                    <label for="formEmail" class="form__label">Адрес электронной почты*:</label>
+                    <input id="formEmail" name="useremail" type="text" class="form__input _req _email">
+                </div>
+
+                <div class="form__item">
+                    <label for="formPass" class="form__label">Пароль*:</label>
+                    <input id="formPass" name="userpass" type="password" class="form__input _req">
+                </div>
+                <div class="form__item">
+                    <label for="formRepeatPass" class="form__label">Повторите пароль*:</label>
+                    <input id="formRepeatPass" name="userrepeatedpass" type="password" class="form__input _req">
+                </div>
+                <button type="submit" class="form__button">Продолжить</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <h2>Тестовое задание</h2>
+            <p>Гринсайт</p>
+            <p>© 2023 MIET</p>
+        </div>
+    </footer>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>

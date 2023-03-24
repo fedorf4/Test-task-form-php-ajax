@@ -1,0 +1,113 @@
+html,
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.successSignUp {
+    margin: 0 auto;
+    text-align: center;
+}
+
+._hide {
+    display: none;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px 0px;
+    background: rgb(116, 116, 116);
+    color: white;
+    text-align: center;
+
+}
+
+.form {
+    max-width: 550px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.form__body {
+    padding-top: 40px;
+}
+
+.form__title {
+    font-size: 34px;
+    width: 100%;
+    text-align: center;
+}
+
+.form__item {
+    margin-bottom: 10px;
+}
+
+.form__label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form__input {
+    height: 30px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 18px;
+    transition: all 0.3s ease 0s;
+}
+
+.form__input:focus {
+    box-shadow: 0 0 15px #a0a0a0;
+}
+
+.form__input._error {
+    box-shadow: 0 0 15px #ff0000;
+}
+
+.error-message,
+.errorResponse {
+    margin-top: 5px;
+    color: red;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.options__input {
+    cursor: pointer;
+}
+
+.options__label {
+    cursor: pointer;
+}
+
+.form__button {
+    width: 100%;
+    display: flex;
+    margin: 30px auto;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    background-color: #86b86b;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease 0s;
+}
+
+.form__button:hover {
+    background-color: #749b60;
+
+}
